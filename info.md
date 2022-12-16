@@ -35,3 +35,5 @@
 ***bold and italic*** - жирный и курсивный шрифт
 
 [1]: https://learn.microsoft.com/ru-ru/contribute/markdown-reference
+
+![<markdown_icon>](<C:\git\test_Git1\markdown_icon.png>)
