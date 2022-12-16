@@ -37,3 +37,7 @@
 [1]: https://learn.microsoft.com/ru-ru/contribute/markdown-reference
 
 ![markdown_icon](/markdown_icon.png)
+
+> Per aspera ad astra [Луций Анней Сенека] 
+
+:sparkles:
