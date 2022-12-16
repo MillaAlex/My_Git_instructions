@@ -16,3 +16,23 @@
 * git clone - retrieve an entire repository from a hosted location via URL
 * git branch [branch name] - creation of a new branch
 * git checkout [branch name] - switch between branches
+
+
+## &#8220;Основные символы&#8221; языка Markdown [1]
+
+&lt;script name&gt; - угловые скобки
+
+&#8220;word&#8221; - двойные кавычки
+
+&#8216;word&#8217; - динарные кавычки
+
+> quote - добавление цитаты
+
+**bold** - жирный шрифт
+
+*italic* - курсив
+
+***bold and italic*** - жирный и курсивный шрифт
+
+<!--Reference links in article-->
+[1]: https://learn.microsoft.com/ru-ru/contribute/markdown-reference
