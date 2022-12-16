@@ -9,3 +9,6 @@
 - git checkout [4 symbols]- move from one commit to other one
 - git checkout master - move to actual status of file
 - git diff - see difference between actual file and the last commit 
+
+* git config --global user.name “[firstname lastname]” - set a name that is seen when review version history
+* git config --global user.email “[valid-email]” - set an email address
