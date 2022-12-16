@@ -5,3 +5,4 @@
 - git add info.md - command to add one file info.md for tracking
 - git add . - command to add all files and folders from directory for tracking
 - git commit -m "comment" - command to fix statusof changes
+- git log - displays history of all commits with their #-codes
