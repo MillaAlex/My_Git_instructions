@@ -34,5 +34,4 @@
 
 ***bold and italic*** - жирный и курсивный шрифт
 
-<!--Reference links in article-->
 [1]: https://learn.microsoft.com/ru-ru/contribute/markdown-reference
