@@ -6,6 +6,7 @@
 - git add . - command to add all files and folders from directory for tracking
 - git commit -m "comment" - command to fix statusof changes
 - git log - displays history of all commits with their #-codes
+- git log --oneline - displays history of all commits with their #-codes in short version
 - git checkout [4 symbols]- move from one commit to other one
 - git checkout master - move to actual status of file
 - git diff - see difference between actual file and the last commit 
