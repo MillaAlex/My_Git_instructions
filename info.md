@@ -15,8 +15,10 @@
 * git config --global user.email [valid-email] - set an email address
 
 * git clone - retrieve an entire repository from a hosted location via URL
+* git branch - displays all branches
 * git branch [branch name] - creation of a new branch
 * git checkout [branch name] - switch between branches
+* clear - cleaning of terminal window
 
 
 ## &#8220;Основные символы&#8221; языка Markdown [1]
@@ -37,6 +39,6 @@
 
 [1]: https://learn.microsoft.com/ru-ru/contribute/markdown-reference
 
-![markdown_icon](/markdown_icon.png)
+![markdown_icon](markdown_icon.png)
 
-> Per aspera ad astra [Луций Анней Сенека] 
+> Per aspera ad astra [Луций Анней Сенека]
