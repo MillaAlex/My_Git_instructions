@@ -1,3 +1,5 @@
+# Instructions for work with Git
+
 ## Git general commands:
 
 - git init - initialization of local repository
@@ -38,3 +40,26 @@ The commands to be entered only once.
 ## Git gitignore function:
 
 - .gitignore - create this file and write files names to be ignored. The .gitignore-file itself can be moved inside not to commit it.
+
+
+## &#8220;Основные символы&#8221; языка Markdown [1]
+
+&lt;script name&gt; - угловые скобки
+
+&#8220;word&#8221; - двойные кавычки
+
+&#8216;word&#8217; - динарные кавычки
+
+> quote - добавление цитаты
+
+**bold** - жирный шрифт
+
+*italic* - курсив
+
+***bold and italic*** - жирный и курсивный шрифт
+
+[1]: https://learn.microsoft.com/ru-ru/contribute/markdown-reference
+
+![markdown_icon](/markdown_icon.png)
+
+> Per aspera ad astra [Луций Анней Сенека] 
