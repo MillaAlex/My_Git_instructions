@@ -17,3 +17,11 @@ The commands to be entered only once.
 - git log --graph - displays all commits with graph tree
 - git diff - see difference between actual file and the last commit 
 - clear - cleaning of terminal window
+## Git commit commands:
+
+- git add [file_name] - command to add one for tracking
+- git add . - command to add all files and folders from directory for tracking
+- git commit -m "comment" - command to fix status of changes
+- git commit -a -m - add commit in one line
+- git commit -am - add commit in one line
+- git checkout [4 symbols]- move from one commit to other one
