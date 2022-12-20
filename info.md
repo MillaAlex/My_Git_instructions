@@ -35,3 +35,6 @@ The commands to be entered only once.
 * git branch -d [branch_name] - delete branch
 * git branch -D [branch_name] - delete already merged branch. BUT: it's impossible to delete a branch while being on it
 * git branch -m [old_branch_name] [new_branch_name] - to rename branch
+## Git gitignore function:
+
+- .gitignore - create this file and write files names to be ignored. The .gitignore-file itself can be moved inside not to commit it.
