@@ -60,6 +60,32 @@ The commands to be entered only once.
 
 - cd .. - to change directory
 
+## Steps to push a local repo to a remote one:
+
+1. Create an empty repo on GitHub.
+2. git remote add origin [address_from_GitHub] - in terminal VSC
+3. git branch -M main
+4. git push -u origin main
+
+## Steps to pull a remote repo to local one:
+
+1. git clone [address_from_GitHub] - in terminal VSC
+2. cd [folder_name]
+3. git add . - created file with all changes
+4. git commit -m "message"
+5. git push
+
+## Steps for works with Forks:
+1. Fork -> Create Fork
+2. Copy link of Fork from your account in GitHub
+3. git clone [address] - in terminal VSC
+4. cd [folder_name] -> make all changes
+5. git add .
+6. git commit -m "message"
+7. git push - to send all changes to remote repo
+8. in GitHub: "1 commit ahead" -> Create pull request 
+
+
 
 ## &#8220;Основные символы&#8221; языка Markdown [1]
 
