@@ -18,6 +18,7 @@ The commands to be entered only once.
 - git log --oneline - displays history of all commits with their #-codes in short version
 - git log --oneline --all - displays history of all commits with changes with their #-codes in short version
 - git log --graph - displays all commits with graph tree
+- git log --oneline --decorate --graph --all - displays all commits with graph tree and history
 - git diff - see difference between actual file and the last commit 
 - clear - cleaning of terminal window
 ## Git commit commands:
@@ -38,6 +39,13 @@ The commands to be entered only once.
 * git branch -D [branch_name] - delete already merged branch. BUT: it's impossible to delete a branch while being on it
 * git branch -m [old_branch_name] [new_branch_name] - to rename branch
 * git merge [branch_name] - merging of branch, to be made when on master branch
+
+- git cherry-pick - берёт изменения, вносимые одним коммитом, и пытается повторно применить их в виде нового коммита в текущей ветке. Эта возможность полезна в ситуации, когда нужно забрать парочку коммитов из другой ветки, а не сливать ветку целиком со всеми внесенными в нее изменениями.
+
+- git rebase — это «автоматизированный» cherry-pick. Он выполняет ту же работу, но для цепочки коммитов, тем самым как бы перенося ветку на новое место.
+
+- git revert — полная противоположность git cherry-pick. Она создаёт новый коммит, который вносит изменения, противоположные указанному коммиту, по существу отменяя его.
+
 ## Git gitignore function:
 
 - .gitignore - create this file and write files names to be ignored. The .gitignore-file itself can be moved inside not to commit it.
@@ -47,6 +55,8 @@ The commands to be entered only once.
 - git push - to send local version to remote repo. One must know addres of the remote repo as well as to be authorized for changes there.
 
 - git pull - takes data from remote repo and merges it with local repo.
+
+- git pull origin master - to pull all possible updates from origin repo.
 
 - cd .. - to change directory
 
