@@ -34,13 +34,21 @@ The commands to be entered only once.
 * git branch [branch_name] - creation of a new branch
 * git checkout [branch_name] - switch between branches
 * git checkout -b [branch_name] - create and switch to the new branch
-* git merge [branch_name] - merging of branch, to be made when on master branch
 * git branch -d [branch_name] - delete branch
 * git branch -D [branch_name] - delete already merged branch. BUT: it's impossible to delete a branch while being on it
 * git branch -m [old_branch_name] [new_branch_name] - to rename branch
+* git merge [branch_name] - merging of branch, to be made when on master branch
 ## Git gitignore function:
 
 - .gitignore - create this file and write files names to be ignored. The .gitignore-file itself can be moved inside not to commit it.
+
+## Git push & pull functions:
+
+- git push - to send local version to remote repo. One must know addres of the remote repo as well as to be authorized for changes there.
+
+- git pull - takes data from remote repo and merges it with local repo.
+
+- cd .. - to change directory
 
 
 ## &#8220;Основные символы&#8221; языка Markdown [1]
