@@ -5,6 +5,7 @@
 - git init - initialization of local repository
 - git status - get info from git about its actual status
 - git clone - retrieve an entire repository from a hosted location via URL
+- git config --list - displays config & user info
 ## Git configuration commands:
 
 * git config --global user.name “[firstname]” - set a name that is seen when review version history
