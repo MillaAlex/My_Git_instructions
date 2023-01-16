@@ -6,6 +6,8 @@
 - git status - get info from git about its actual status
 - git clone - retrieve an entire repository from a hosted location via URL
 - git config --list - displays config & user info
+- git remote -v show - to show list of repos
+- git remote remove Name - to delete the indicated repo
 ## Git configuration commands:
 
 * git config --global user.name “[firstname]” - set a name that is seen when review version history
